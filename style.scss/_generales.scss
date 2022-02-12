@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    }
+.header_nav-caja {
+    width: 80px;
+    height: auto;
+border: 2cm;
+    .header_naf {
+        display:flex;
+        justify-content: space-around;
+border: 2cm;
+        .nav {
+            display: flex;
+            list-style: flex
+            ;
+            font-size: larger;
+ li {
+                margin: 20px;
+                padding: 10px;
+                border: solid 1px;
+                border-radius: 20px;
+                    font-size: 30px;
+                    font-style: normal;
+                    font-family: sans-serif;
+                    color: black;
+                    padding: 30px 10px 30px 10px;
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    display: inline-block;
+                &:hover {
+                    background-color: rgb(231, 143, 9);
+                    opacity: 74%;
+                    ul {
+                        height: 11vh;
+                        background-color: rgb(249, 250, 245);
+                        opacity: 80%;
+                        a {
+                            font-style: normal;
+                            font-family: sans-serif;
+                            font-family: Arial, Helvetica, sans-serif;
+                            color: black;
+                            font-weight: 400;
+                }
+            }
+        }
+    }
+}
+}
+}
+
+body {
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif sans-serif;
+    background-color: rgb(249, 250, 245);
+    text-align: left;
+    background-attachment: scroll;
+    margin-top: 20px;
+    display: grid;
+
+}
+.container {
+    font-size: black;
+    padding: 0%;
+    border: 4px black;
+}
+
+div {
+    font-size: large;
+    font-family: sans-serif;
+    color: black;
+    padding: 30px 25px 35px 20px;
+    margin-top: 10px;
+    text-align: left;
+}
+@media only screen and (max-width: 425px) {
+	nav {
+		background-color: rgb(249, 250, 245);
+	}
+	.padre {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 6fr;
+		grid-template-areas: "foto1" "foto2" "foto3" "foto4" "foto5" "foto6";
+	}
+}
+@media only screen and (max-width: 426px) {
+	nav {
+		background-color: rgb(249, 250, 245);
+	}
+	.padre {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		grid-template-areas: "foto1 foto2" "foto3 foto4" "foto5 foto6";
+	}
+}
+@media only screen and (min-width: 650px) {
+	nav {
+		background-color: rgb(249, 250, 245);
+	}
+	.padre {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6";
+	}
+}
