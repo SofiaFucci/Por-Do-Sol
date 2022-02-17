@@ -107,3 +107,15 @@ div {
 		grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6";
 	}
 }
+$btn-bkg: purple;
+.btn {
+  display: inline-block;
+  padding: 18px;
+  background: $btn-bkg;
+  color: white;
+  &:hover {
+    background: darken($btn-bkg, 10%)
+  }
+}
+
+$base-color:rgb(219, 175, 31) ;
