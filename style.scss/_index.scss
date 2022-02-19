@@ -35,11 +35,8 @@ background-image: url(../imagenes/fondodonfo\ \(1\).jpg);
     animation: kenburns-top 5s ease-out both;
 }
 
-iframe {
-    display: grid;
-    justify-items: left;
-    align-content: flex-start;
-}
+
+
 .text-focus-in {
     -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -112,4 +109,7 @@ iframe {
     .title {
       font-size: 4rem;
     }
+  }
+  h2{
+      background-image: url(../imagenes/fondodonfo\ \(1\).jpg);
   }
